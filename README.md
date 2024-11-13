@@ -10,7 +10,7 @@
 
 ```bash
 git clone https://github.com/G1fi/Flask-Healthz-Server.git
-cd flask-server
+cd Flask-Healthz-Server
 ```
 
 ### 2.1 Создайте Docker образ и запустите контейнер
