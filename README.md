@@ -13,7 +13,7 @@ git clone https://github.com/G1fi/Flask-Healthz-Server.git
 cd flask-server
 ```
 
-### 2. Создайте Docker образ и запустите контейнер
+### 2.1 Создайте Docker образ и запустите контейнер
 
 Для сборки Docker образа выполните команду:
 
@@ -25,6 +25,16 @@ docker build -t flask-server .
 
 ```bash
 docker run -p 8080:8080 flask-server
+```
+
+Это запустит сервер на порту 8080.
+
+### 2.2 ИЛИ Запустите Docker Compose
+
+Проверьте конфигурацию в `docker-compose.yml` и запустите Docker Compose:
+
+```bash
+docker compose up --build
 ```
 
 Это запустит сервер на порту 8080.
